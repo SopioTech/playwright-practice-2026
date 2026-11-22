@@ -13,6 +13,6 @@ test("Drag & Drop", async ({ page }) => {
 
   await finishReportTodo.dragTo(doneZone);
   await page.waitForTimeout(1000);
-  await page.dragAndDrop("//li[text()= 'Buy groceries')", "#doneList");
+  await page.dragAndDrop("//li[text()= 'Buy groceries')", "#doneList"); 
 });
-/// hello world/
+/// hello world   g32b
